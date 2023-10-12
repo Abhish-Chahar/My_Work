@@ -1,0 +1,20 @@
+Motor imagery EEG data
+
+	Object grasp imagination
+
+Objective:
+	hand grasp task classification
+
+
+Dataset:
+
+	eegdat: 4 dimensions
+
+		45 electrodes, 1200 time samples, 8 grasp tasks, 28 repetitions
+
+		-> 45 electrodes located around the motor cortex
+		-> 2 seconds of period time samples with 600 Hz sampling rate
+		-> 8 object-grasp imagery tasks
+		-> Repeat 28 times for each task
+
+Data have been filtered to an 8-30 Hz frequency band range
